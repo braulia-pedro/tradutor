@@ -11,6 +11,7 @@ const dicionario = [
     { ingles: "students", portugues: "alunos" },
     { ingles: "Sciences", portugues: "Ciencias" },
     { ingles: "is", portugues: "é" },
+    { ingles: "contributing", portugues: "contribuição" },
     { ingles: "and", portugues: "e" },
     { ingles: "an" || "a", portugues: "uma" },
     { ingles: "Translate", portugues: "traduzir" },
@@ -121,7 +122,7 @@ function adicionarBotaoTraduzir() {
     botao.style.backgroundColor = "#4285f4";
     botao.style.color = "white";
     botao.style.border = "none";
-    botao.style.borderRadius = "5px";
+    botao.style.borderRadius = "6px";
     botao.style.cursor = "pointer";
     
 
