@@ -1,16 +1,26 @@
 const dicionario = [
-    { ingles: "university", portugues: "universidade" },
     { ingles: "The", portugues: "A" },
+    { ingles: "university", portugues: "universidade" },
+    { ingles: "an", portugues: "uma" },
+    { ingles: "located", portugues: "localizada" },
+    { ingles: "in the", portugues: "na" },
+    { ingles: "on the", portugues: "no" },
+    { ingles: "About", portugues: "Sobre" },
+    { ingles: "city", portugues: "cidade" },
     { ingles: "of", portugues: "de" },
+    { ingles: "students", portugues: "alunos" },
     { ingles: "Sciences", portugues: "Ciencias" },
-    { ingles: "is", portugues: "e" },
+    { ingles: "is", portugues: "é" },
+    { ingles: "and", portugues: "e" },
+    { ingles: "an" || "a", portugues: "uma" },
     { ingles: "Translate", portugues: "traduzir" },
+    { ingles: "focusing", portugues: "focando" },
     { ingles: "page", portugues: "pagina" },
     { ingles: "institution", portugues: "instituição" },
     { ingles: "excellence", portugues: "excelência" },
     { ingles: "higher education", portugues: "ensino superior" },
-    { ingles: "Angola", portugues: "Angola" },
-    { ingles: "Luanda", portugues: "Luanda" },
+    { ingles: "aims", portugues: "visa" },
+    { ingles: "to be", portugues: "ser" },
     { ingles: "private", portugues: "privada" },
     { ingles: "education", portugues: "educação" },
     { ingles: "training", portugues: "formação" },
@@ -34,10 +44,12 @@ const dicionario = [
     { ingles: "contribute", portugues: "contribuir" },
     { ingles: "country", portugues: "país" },
     { ingles: "world", portugues: "mundo" },
+    { ingles: "Our", portugues: "Nossa" },
+    { ingles: "to provide", portugues: "prover" },
     { ingles: "courses", portugues: "cursos" },
     { ingles: "program", portugues: "programa" },
-    { ingles: "human", portugues: "humano" },
     { ingles: "social", portugues: "social" },
+    { ingles: "of the", portugues: "dos" },
     { ingles: "arts", portugues: "artes" },
     { ingles: "science", portugues: "ciência" },
     { ingles: "law", portugues: "direito" },
@@ -112,7 +124,7 @@ function adicionarBotaoTraduzir() {
     botao.style.borderRadius = "5px";
     botao.style.cursor = "pointer";
     
-    //traducao
+
     botao.onclick = traduzirPagina;
 
     document.body.appendChild(botao);
